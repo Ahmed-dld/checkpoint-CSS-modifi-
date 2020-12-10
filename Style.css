@@ -1,0 +1,289 @@
+
+
+body {
+    background:rgb(243, 188, 133);
+    font-family: 'Roboto', sans-serif;
+    color: #181818;
+    
+  }
+ 
+  header
+{
+    background: url('image/ps.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+    
+}
+
+#logo 
+{
+   
+    align-items: baseline;
+    display: flex;
+    color: red;
+    align-items: baseline;
+   position: relative;
+   right: 400px;
+    
+
+}
+
+
+  /* Animation photo home */
+.LTDM { 
+    background-color:pink;
+    font-size: 70px;
+    font-weight:bold;
+ }
+
+.title { 
+
+background-image: url(image/1.jpg);
+border-radius: 50%;
+width: 50%;
+padding: 100px 0;
+background-size: cover;  
+text-align: center;
+ z-index: 1;
+ position: absolute;
+ font-family: 'Roboto', sans-serif;
+
+margin: 0 auto;
+ left: 10%;
+right:3%;
+top: 40%;
+color: red;
+            
+}
+
+
+
+/* Animation Texte */
+.Animationtext{
+    animation-name: Animationtext;
+    animation-duration: 10s;
+}
+@keyframes Animationtext {
+    0% {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    50% {
+        
+        transform: translateX(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 20px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+  /* Section corps actus */
+  section
+  {
+      display: flex;
+      
+  }
+  article, aside
+{
+    text-align: justify;
+}
+article 
+{
+    margin-right: 20px;
+    flex: 3;
+}
+.catégorie 
+    {
+        vertical-align: middle;
+        margin-right:10px;
+    }
+    
+article p
+{
+    font-size: 0.8em;
+    margin: 50px;
+    box-shadow: 10px 2px 5px #1c1a19;
+
+}
+aside
+{
+    flex: 1.2;
+    position: relative;
+    top: 30px;
+    background-color: rgb(255, 0, 242);
+    box-shadow: 0px 2px 5px #1c1a19;
+
+    border-radius: 30px;
+    padding: 10px;
+    color:maroon;
+    font-size: 0.9em;
+}
+#mes_photos 
+{
+
+    border: 5px solid blue;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 3%
+    
+  }
+p {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;  
+    font-family: 'Roboto', sans-serif;
+
+ 
+}
+table {
+    border: medium solid #000000;
+    
+    width: 50%;
+    }
+    th {
+        font-family: 'Roboto', sans-serif;
+
+        border: thin solid #a6ed64;
+        width: 50%;
+        padding: 5px;
+        background-color: #d1fad0;
+        background-image: url(sky.jpg);
+        }
+        td {
+            font-family: 'Roboto', sans-serif;
+
+            border: thin solid #6495ed;
+            width: 50%;
+            padding: 5px;
+            text-align: center;
+            background-color: #ffffff;
+            }
+            caption {
+                font-family: 'Roboto', sans-serif;
+
+            }
+#les_payes{
+    border: medium solid #000000;
+    border-radius: 20px;
+    margin: 50px;
+}
+h1{
+    color: mediumblue;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 30px;
+}
+/* Contact */
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;  
+}
+input[type=submit] {
+    width: 10%;
+    background-color: grey;
+    color: indigo ;
+    padding: 10px 10px;
+    margin: 8px 0 ;
+    border-radius: 10px;
+}
+/* A Propos*/
+.f1 , .f2 {
+    display: inline-flexbox;
+    margin-left: 250px;
+    margin-top: 20px; 
+    border: 5px solid black;
+    margin-right: 30px;
+    border-radius: 10% 
+    
+ 
+}
+.P1, .P2 {
+    color:blue;
+    font: 20px Arial, sans-serif;  
+    font-family: 'Roboto', sans-serif;
+     
+}
+
+/* Footer */
+footer
+{
+    display:flex ;
+    background:  url('image/sp.png') no-repeat top center, url('image/ps.png') repeat-x top, url('image/om.png') repeat-x top;
+    padding-top: 10px;
+    position: relative;
+    top: 250px ;
+}
+
+footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#sociaux
+{
+    width: 50%;
+    color: red;
+    display:flex ;
+    position: relative;
+    top: 170px;  
+}
+
+#mes_amis
+{
+    width: 60%;
+    color:#760001;
+    padding-left: 1000px;
+    position: relative;
+    top: 50px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    color: rgb(18, 19, 18);
+    padding-left: 50px;
+}
+
+
+
